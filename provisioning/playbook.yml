@@ -1,0 +1,6 @@
+---
+- hosts: elixir
+  become: yes
+  roles:
+    - common
+    - elixir
